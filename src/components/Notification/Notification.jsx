@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
+import { NotiMessage } from "./NotificationStyled";
 
 const Notification = ({ message }) => {
     return (
         <>
-            <p>{message}</p>
+            <NotiMessage>{message}</NotiMessage>
         </>
     );
 };
