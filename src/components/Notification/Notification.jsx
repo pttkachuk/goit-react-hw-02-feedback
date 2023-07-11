@@ -3,9 +3,7 @@ import { NotiMessage } from "./NotificationStyled";
 
 const Notification = ({ message }) => {
     return (
-        <>
-            <NotiMessage>{message}</NotiMessage>
-        </>
+        <NotiMessage>{message}</NotiMessage>
     );
 };
 
